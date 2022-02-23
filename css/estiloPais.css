@@ -1,0 +1,191 @@
+/*Menu*/
+ul {
+  list-style-type: none;/*desactiva viñetas*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*Especifica qué sucede si el contenido
+  del cuadro de un elemento se desborda */
+  background-color: rgb(0, 0, 0);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(246, 179, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover { /*Cuando pasa el mouse sobre el elemento*/
+  background-color: rgb(225, 0, 255);
+  color:rgb(39, 12, 43);
+}
+
+li a:active { /*Cuando da click en el mouse */
+  background-color: rgb(195, 46, 214);
+  font-size: 120%;
+}
+
+li:last-child{
+float: right;
+background-color: rgba(180, 0, 126, 0.69);
+color:white;
+}
+/*Menu*/
+
+
+div.contenedor{
+    width: 100%;
+    border: 1px solid rgb(62, 0, 87);
+}
+header{
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(81, 0, 156);
+    clear: left;
+    text-align: center;
+    /*  font-family: "Agency FB";*/
+}
+footer {
+  padding: 1em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(81, 0, 156);
+  clear: left;
+  text-align: center;
+  font-family: "Agency FB";
+}
+body{
+  background-color: blueviolet;
+}
+/*nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+/*
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    /*padding:0;*/
+/*}*/
+/*nav ul a {
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}*/
+
+a.active {
+    color: red;
+}
+
+a.Bienvenida {
+  color: rgb(211, 199, 255);
+}
+body.Bienvenida{
+  height: 400px;
+  background-image: url("../img/paises.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+p.Bienvenida {
+  color: rgb(255, 255, 255);
+  font-size: 200%;
+  font-family:"Goudy Stout";
+  text-align: center;
+}
+
+article {
+    /*margin-left: 170px;*/
+    border-left: 1px solid rgb(175, 56, 255);
+    padding: 1em;
+    overflow: hidden;
+    background-color: #daadff;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+
+p.img{
+    text-align: center; 
+}
+p.paises{
+  margin-left: 300px;
+  text-align: justify;
+}
+
+h1.G{
+  font-family: "Agency FB";
+  text-align:center;
+  font-size: 200%;
+}
+
+h1{
+  text-align:center;
+  font-size: 200%;
+}
+
+
+
+#mexico{
+  color:rgb(0, 150, 0);
+}
+
+#londres{
+  color:rgb(255, 0, 0);
+}
+
+#paris{
+  color:rgb(0, 0, 255);
+}
+
+#tokyo{
+  color:rgb(180, 27, 27);
+}
+#Bangkok{
+  color: rgb(46, 95, 255);
+}
+
+.banderaMex{
+  background-image: url("../img/mexico.jpg");
+  background-repeat:no-repeat;
+  background-position: left center;
+  }
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+  background-repeat:no-repeat;
+  background-position: left center;
+}
+.banderaPar{
+  background-image: url("../img/paris.jpg");
+  background-repeat:no-repeat;
+  background-position: left center;
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+  background-repeat:no-repeat;
+  background-position: left center;
+}
+.banderaBan{
+  background-image: url("../img/bangkok.jpg");
+  background-repeat:no-repeat;
+  background-position: left center;
+}
+
+/*Contacto*/
+TH{
+  color: rgb(255, 255, 255);
+  font-family: "Agency FB";
+  font-size: 150%;
+}
+CAPTION{
+  color: rgb(255, 255, 255);
+  font-size: 150%;
+}
+TD{
+  color: rgb(255, 255, 255);
+  font-size: 150%;
+}        
